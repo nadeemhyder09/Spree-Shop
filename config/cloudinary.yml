@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: suavis-technologies
+  api_key: '428581935655362'
+  api_secret: tvycLtJrhbEtcStuGRxDZUA0Cks
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: suavis-technologies
+  api_key: '428581935655362'
+  api_secret: tvycLtJrhbEtcStuGRxDZUA0Cks
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: suavis-technologies
+  api_key: '428581935655362'
+  api_secret: tvycLtJrhbEtcStuGRxDZUA0Cks
+  enhance_image_tag: true
+  static_file_support: false
