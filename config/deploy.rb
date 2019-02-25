@@ -1,8 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
-ssh_options[:forward_agent] = true
 set :application, "Spree-Shop"
-set :repo_url, "github.com/nadeemhyder09/Spree-Shop.git"
+set :repo_url, "https://github.com/nadeemhyder09/Spree-Shop.git"
 
 set :deploy_to, '/home/deploy/Spree-Shop'
 

@@ -30,10 +30,10 @@ install_plugin Capistrano::SCM::Git
 #If you are using rbenv add these lines:
 require 'capistrano/rbenv'
 set :rbenv_type, :user
-set :rbenv_ruby, '2.4.3p205'
+set :rbenv_ruby, '2.4.3'
 
 require "capistrano/bundler"
-require "capistrano/passenger"
+# require "capistrano/passenger"
 require 'capistrano/rails'
 # require "capistrano/rvm"
 #  require "capistrano/rbenv"
