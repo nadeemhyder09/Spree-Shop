@@ -85,15 +85,15 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: shopping_site_production
-  username: shopping_site
-  password: <%= ENV['SHOPPING_SITE_DATABASE_PASSWORD'] %>
+  # <<: *default
+  # database: shopping_site_production
+  # username: shopping_site
+  # password: <%= ENV['SHOPPING_SITE_DATABASE_PASSWORD'] %>
 
-  #  adapter: postgresql
-  #     host: 68.183.125.180
-  #     database: my_app_name_production
-  #     username: deploy
-  #     password: 12345678
-  #     encoding: unicode
-  #     pool: 5
+   adapter: postgresql
+      host: 134.209.76.6
+      database: spree_app_production
+      username: deploy
+      password: 12345678
+      encoding: unicode
+      pool: 5
