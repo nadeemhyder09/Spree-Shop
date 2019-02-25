@@ -1,10 +1,10 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 ssh_options[:forward_agent] = true
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_app_name"
+set :application, "Spree-Shop"
+set :repo_url, "github.com/nadeemhyder09/Spree-Shop.git"
 
-set :deploy_to, '/home/deploy/spreeshoppingsite'
+set :deploy_to, '/home/deploy/Spree-Shop'
 
 append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
