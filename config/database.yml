@@ -24,8 +24,8 @@ default: &default
 development:
   <<: *default
   host: localhost
-  database: shopping_site_development
-  username: nadeemhyder
+  database: spree_app_production
+  username: deploy
   password: 12345678
 
   # The specified database role being used to connect to postgres.
@@ -61,8 +61,8 @@ development:
 test:
   <<: *default
   host: localhost
-  database: shopping_site_test
-  username: nadeemhyder
+  database: spree_app_production
+  username: deploy
   password: 12345678
 
 # As with config/secrets.yml, you never want to store sensitive information,
